@@ -8,6 +8,11 @@ imagemin = require "gulp-imagemin"
 rename   = require "gulp-rename"
 concat   = require "gulp-concat"
 del      = require "del"
+bower    = require "main-bower-files"
+
+gulp.task "bower", ->
+  gulp.src bower()
+    .pipe gulp.dest "public/javascripts/vendor"
 
 gulp.task "coffee", ->
   gulp.src "public/coffee/**/*.coffee"
@@ -56,4 +61,4 @@ gulp.task "watch", ->
 gulp.task "clean", (cb)->
   del ["build", "dist"], cb
 
-gulp.task "default", ["coffee", "less", "sass", "js", "css", "image"]
+gulp.task "default", ["coffee", "less", "sass", "bower", "js", "css", "image"]
