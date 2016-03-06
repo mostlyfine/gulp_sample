@@ -1,6 +1,5 @@
 node_modules/
-bower_components/
-dist/
-build/
+public/
 tmp/
 *.swp
+*.log
