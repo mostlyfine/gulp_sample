@@ -10,3 +10,9 @@ $ npm install
 $ gulp watch
 $ node_modules/gulp watch
 ```
+
+## run gulp task
+
+```
+$ npm run gulp
+```
