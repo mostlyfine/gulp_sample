@@ -44,7 +44,9 @@ gulp.task('babel', function() {
 gulp.task('server', function() {
   browserSync.init({
     server: {
-      baseDir: 'public'
+      baseDir: 'public',
+      index: 'index.html',
+      directory: true
     }
   });
 });
