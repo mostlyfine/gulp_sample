@@ -13,6 +13,12 @@ $ node_modules/gulp watch
 
 ## run gulp task
 
+default
 ```
-$ npm run gulp
+$ npm start
+```
+
+watch
+```
+$ npm run watch
 ```
