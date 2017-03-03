@@ -14,7 +14,7 @@
     "gulp-sass": "*",
     "gulp-uglify": "*",
     "gulp-plumber": "*",
-    "gulp-jade": "*",
+    "gulp-pug": "*",
     "gulp-babel": "*",
     "babel-preset-es2015": "*",
     "browser-sync": "*"
