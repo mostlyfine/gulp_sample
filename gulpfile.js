@@ -23,15 +23,6 @@ gulp.task('sass', function() {
   .pipe(browserSync.stream());
 });
 
-gulp.task('coffee', function() {
-  gulp.src('coffee/**/*.coffee')
-  .pipe(plumber())
-  .pipe(coffee())
-  .pipe(uglify())
-  .pipe(gulp.dest('public/js'))
-  .pipe(browserSync.stream());
-});
-
 gulp.task('babel', function() {
   gulp.src('es6/**/*.es6')
   .pipe(plumber())

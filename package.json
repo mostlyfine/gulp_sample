@@ -10,7 +10,6 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "*",
-    "gulp-coffee": "*",
     "gulp-sass": "*",
     "gulp-uglify": "*",
     "gulp-plumber": "*",
