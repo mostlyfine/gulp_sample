@@ -7,7 +7,7 @@
     "start": "gulp",
     "watch": "gulp watch"
   },
-  "author": "",
+  "author": "mostlyfine",
   "license": "ISC",
   "devDependencies": {
     "gulp": "*",
