@@ -1,7 +1,6 @@
 var gulp = require('gulp');
 var pug = require('gulp-pug');
 var sass = require('gulp-sass');
-var coffee = require('gulp-coffee');
 var babel = require('gulp-babel');
 var plumber = require('gulp-plumber');
 var uglify = require('gulp-uglify');
@@ -45,7 +44,6 @@ gulp.task('server', function() {
 gulp.task('watch', function () {
   gulp.watch('pug/**/*.pug', ['pug']);
   gulp.watch('sass/**/*.scss', ['sass']);
-  gulp.watch('coffee/**/*.coffee', ['coffee']);
   gulp.watch('es6/**/*.es6', ['babel']);
 });
 
